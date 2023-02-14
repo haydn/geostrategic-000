@@ -1,0 +1,85 @@
+@namespace svg url("http://www.w3.org/2000/svg");
+
+:not(svg|*) {
+  all: unset;
+  box-sizing: border-box;
+}
+
+head,
+link,
+meta,
+noscript,
+script,
+style,
+title {
+  display: none;
+}
+
+address,
+article,
+aside,
+blockquote,
+details,
+dialog,
+dd,
+div,
+dl,
+dt,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+li,
+main,
+nav,
+ol,
+p,
+pre,
+section,
+table,
+ul {
+  display: block;
+}
+
+audio,
+canvas,
+iframe,
+img,
+math,
+object,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+table {
+  display: table;
+}
+thead {
+  display: table-header-group;
+}
+tfoot {
+  display: table-footer-group;
+}
+tbody {
+  display: table-row-group;
+}
+tr {
+  display: table-row;
+}
+th,
+td {
+  display: table-cell;
+  text-align: start;
+}

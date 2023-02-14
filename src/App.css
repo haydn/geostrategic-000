@@ -1,0 +1,13 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #fff;
+    color-scheme: dark light;
+  }
+}
+
+button,
+input,
+progress {
+  all: revert;
+  cursor: pointer;
+}

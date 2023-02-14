@@ -1,0 +1,18 @@
+.login {
+  align-content: center;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  min-height: 100vh;
+  row-gap: 20px;
+}
+
+.login a {
+  cursor: pointer;
+}
+
+@media (prefers-color-scheme: dark) {
+  .login .supabase-ui-auth_ui-input {
+    color: #fff;
+  }
+}
